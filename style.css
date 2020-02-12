@@ -3,6 +3,15 @@
 	src: url("font.ttf");
 }
 
+nav {
+	background-color: #3880ce;
+	border: 2px solid #3880cedd;
+	margin: 5px;
+	padding: 5px;
+	color: #FFFFFF;
+	font-family: SegoeUI;
+}
+
 h1{
 	color: #FFFFFF;
 	font-family: SegoeUI;
@@ -20,6 +29,11 @@ p {
 
 button {
 	font-family: SegoeUI;
+}
+
+button:hover {
+	background-color: #999999;
+	border-color: #999999;
 }
 
 footer {
@@ -67,5 +81,32 @@ footer {
 
 /* Class for the clock display on the heading bar */
 .clock {
-	padding-left: 450px;
+	padding-left: 425px;
 	vertical-align: middle;
+
+}
+
+.nav {
+	background-color: #4000ff;
+	border-color: #4000ff;
+	color: #FFFFFF;
+	width: 100px;
+	height: 40px;
+
+}
+
+.nav:hover{
+	background-color: #4000cc;
+	border-color: #4000cc;
+	color: #FFFFFF;
+}
+
+.alert-red {
+	border-radius: 10px;
+	background-color: #ff5555;
+	border-color: #ebccd1;;
+	color: #a94442;
+	margin: 5px;
+	padding: 5px;
+	padding-left: 20px;
+}
