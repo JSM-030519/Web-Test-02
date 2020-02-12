@@ -47,7 +47,7 @@ footer {
 	background-color: #3880ce;
 	border: 2px solid #3880cedd;
 	padding-left: 10px;
-	padding-right: 10px;
+	padding-right: 10px; 
 	margin: 5px;
 }
 
@@ -59,3 +59,13 @@ footer {
 	text-align: center;
 
 }
+
+/* Alignment of content inside heading bar */
+.inline-block-child {
+	display: inline-block;
+}
+
+/* Class for the clock display on the heading bar */
+.clock {
+	padding-left: 450px;
+	vertical-align: middle;
