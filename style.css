@@ -10,6 +10,7 @@ nav {
 	padding: 5px;
 	color: #FFFFFF;
 	font-family: SegoeUI;
+	border-radius: 10px;
 }
 
 h1{
@@ -48,6 +49,7 @@ footer {
 	padding: 10px;
 	width: auto;
 	z-index: 1;
+	border-radius: 10px;
 }
 
 #heading {
@@ -55,6 +57,7 @@ footer {
 	border: 2px solid #3880cedd;
 	padding-left: 20px;
 	margin: 5px;
+	border-radius: 10px;
 }
 
 #content1 {
@@ -63,6 +66,7 @@ footer {
 	padding-left: 10px;
 	padding-right: 10px; 
 	margin: 5px;
+	border-radius: 10px;
 }
 
 #footer {
@@ -71,6 +75,7 @@ footer {
 	margin: 5px;
 	padding: 5px;
 	text-align: center;
+	border-radius: 10px;
 
 }
 
@@ -104,8 +109,17 @@ footer {
 .alert-red {
 	border-radius: 10px;
 	background-color: #ff5555;
-	border-color: #ebccd1;;
+	border-color: #ebccd1;
 	color: #a94442;
+	margin: 5px;
+	padding: 5px;
+	padding-left: 20px;
+}
+
+.alert-yel {
+	border-radius: 10px;
+	background-color: #dddd55;
+	border-color: #cccc55;
 	margin: 5px;
 	padding: 5px;
 	padding-left: 20px;
